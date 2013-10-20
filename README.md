@@ -10,11 +10,11 @@ The connection string pattern below can be used directly in the Azure Website Co
 Name the connection string in the configuration panel to match the Model-First Connection string in your Web Application. 
 <dl>
   <dt>The Azure Connection String for Model-First Connection:</dt>
-  <dd>
-metadata=res://*/Models.<AzureDatabaseName>.csdl|res://*/Models.<AzureDatabaseName>.ssdl|res://*/Models.<AzureDatabaseName>.msl;provider=System.Data.SqlClient;provider connection string="data source=tcp:<AzureServerName>.database.windows.net;initial catalog=<AzureDatabaseName>;Persist Security Info=True;User ID=<UserLogIn>@<AzureServerName>;Password=<UserPassword>"
-  </dd>
 </dl>
 
+```
+    metadata=res://*/Models.AzureDatabaseName.csdl|res://*/Models.AzureDatabaseName.ssdl|res://*/Models.AzureDatabaseName.msl;provider=System.Data.SqlClient;provider connection string="data source=tcp:AzureServerName.database.windows.net;initial catalog=AzureDatabaseName;Persist Security Info=True;User ID=UserLogIn@AzureServerName;Password=UserPassword"
+```
 
 For more information, see the related post at:
 
