@@ -13,7 +13,7 @@ Name the connection string in the configuration panel to match the Model-First C
 </dl>
 
 ```
-    metadata=res://*/Models.<AzureDatabaseName>.csdl|res://*/Models.<AzureDatabaseName>.ssdl|res://*/Models.<AzureDatabaseName>.msl;provider=System.Data.SqlClient;provider connection string="data source=tcp:<AzureServerName>.database.windows.net;initial catalog=<AzureDatabaseName>;Persist Security Info=True;User ID=<UserLogIn>@<AzureServerName>;Password=<UserPassword>"
+    metadata=res://*/Models.<AzureDatabaseName>.csdl|res://*/Models.<AzureDatabaseName>.ssdl|res://*/Models.<AzureDatabaseName>.msl;provider=System.Data.SqlClient;provider connection string="data source=tcp:<AzureServer>.database.windows.net;initial catalog=<AzureDatabaseName>;Persist Security Info=True;User ID=<UserLogIn>@<AzureServer>;Password=<UserPassword>"
 ```
 
 For more information, see the related post at:
