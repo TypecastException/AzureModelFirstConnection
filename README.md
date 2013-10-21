@@ -16,6 +16,8 @@ Name the connection string in the configuration panel to match the Model-First C
     metadata=res://*/Models.<EFModel>.csdl|res://*/Models.<EFModel>.ssdl|res://*/Models.<EFModel>.msl;provider=System.Data.SqlClient;provider connection string="data source=tcp:<AzureServer>.database.windows.net;initial catalog=<AzureDatabaseName>;Persist Security Info=True;User ID=<UserLogIn>@<AzureServer>;Password=<UserPassword>"
 ```
 
-For more information, see the related post at:
+For more information, see the related post:
+
+[ASP.NET MVC–Azure Websites and EF Model First Connection Strings when Deploying from Github](http://typecastexception.com/post/2013/10/20/ASPNET-MVC%E2%80%93Azure-Websites-Azure-SQL-Database-and-EF-Model-FirstDatabase-First-Connection-Strings-when-Deploying-from-Github.aspx)
 
 
